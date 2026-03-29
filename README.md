@@ -9,7 +9,7 @@ Food Waste Reduction Platform
 - GitHub: smecaj22
 
 ## Team Members:
-1. Migena Lami - GitHub: mlamaj23 - Email: [mlamaj23@epoka.edu.al]
+1. Migena Lami - GitHub: mlamaj23 - Email: [mlami23@epoka.edu.al]
 2. Rovena Rama - GitHub: rrama22 - Email: [rrama22@epoka.edu.al]
 3. Sabien Mecaj - GitHub: smecaj22 - Email: [smecaj22@epoka.edu.al]
 4. Sibora Gurra - GitHub: sg946 - Email: [sgurra23@epoka.edu.al]
