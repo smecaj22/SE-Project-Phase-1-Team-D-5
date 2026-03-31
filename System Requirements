@@ -1,1 +1,117 @@
+1. Chosen Development Model
+Development Model:
+Agile Model
+Justification:
+The Agile model was selected because it allows flexibility and continuous improvement throughout the development process. Since the project may evolve based on feedback and testing, Agile helps the team adapt quickly to changes. It also encourages collaboration, regular updates, and incremental progress, which is suitable for this type of platform.
+2. User Requirements
+a. Stakeholders (WHO is involved)
+1. End Users (Consumers):
+People who want to find and receive surplus food. Their main interest is easy access to available food listings.
+2. Food Providers (Restaurants, Stores, Households):
+They provide surplus food. Their goal is to reduce waste and possibly gain visibility or social impact.
+3. Charities and Organizations:
+They collect food for people in need. They require efficient access to large quantities of food.
+4. Development Team:
+Responsible for building, testing, and maintaining the system.
+5. Admin:
+Manages users, monitors activity, and ensures the platform runs properly.
+b. User Stories (WHAT they need and WHY)
+•	As a user, I want to register and log in so that I can access the platform securely. 
+•	As a food provider, I want to post surplus food so that it can be distributed instead of wasted. 
+•	As a user, I want to browse available food listings so that I can find food near me. 
+•	As a charity organization, I want to receive notifications about available food so that I can act quickly. 
+•	As an admin, I want to manage users and listings so that the system remains safe and organized. 
+•	As a user, I want to receive real-time updates so that I don’t miss available food opportunities. 
+3. Functional Requirements
+a. Description
+•	The system should allow users to register and log in. 
+•	The system should allow users to create and manage profiles. 
+•	The system should allow food providers to post surplus food listings. 
+•	The system should allow users to browse and search for available food. 
+•	The system should send notifications for new food listings. 
+•	The system should allow admins to manage users and content. 
+b. Acceptance Criteria
+User Registration & Login
+•	User enters valid email and password 
+•	System verifies credentials 
+•	User account is created successfully 
+•	User is redirected after login 
+•	Error message appears for invalid input 
+Post Food Listing
+•	Provider enters food details (name, quantity, location) 
+•	System saves the listing 
+•	Listing appears in the available food section 
+•	Confirmation message is displayed 
+Browse Listings
+•	User can view all available food items 
+•	Listings display correct information 
+•	User can search/filter listings 
+•	Page loads successfully 
+Notifications
+•	User receives notification when food is posted 
+•	Notification is delivered in real time 
+•	User can view notification details 
+Admin Management
+•	Admin can view all users 
+•	Admin can remove inappropriate content 
+•	Changes are reflected immediately 
+4. Non-Functional Requirements
+a. Description
+•	Performance: The system should be fast and responsive. 
+•	Usability: The interface should be simple and user-friendly. 
+•	Reliability: The system should work without crashes. 
+•	Security: User data must be protected. 
+•	Scalability: The system should handle more users over time. 
+b. Acceptance Criteria
+Performance
+•	Pages load in less than 2 seconds 
+•	Actions complete within 3–5 seconds 
+Usability
+•	Users can navigate easily without confusion 
+•	Interface is clear and consistent 
+Reliability
+•	System uptime is at least 99% 
+•	No major crashes during usage 
+Security
+•	Passwords are encrypted 
+•	Unauthorized access is prevented 
+Scalability
+•	System supports increasing number of users 
+•	No significant performance drop under load 
+5. Application Specifications
+a. Architecture
+The system follows a three-tier architecture:
+•	Frontend (User Interface): Handles user interaction 
+•	Backend (Business Logic): Processes requests and manages system operations 
+•	Database: Stores users, food listings, and related data 
+The frontend communicates with the backend through API requests, and the backend interacts with the database to retrieve and store information.
+b. Database Model
+The database includes the following main tables:
+•	Users: Stores user information (ID, name, email, password) 
+•	Food Listings: Stores details of surplus food (ID, title, quantity, location, user ID) 
+•	Notifications: Stores alerts sent to users 
+Relationships:
+•	Each food listing is linked to a user (provider) 
+•	Notifications are linked to users 
+Constraints:
+•	Email must be unique 
+•	All listings must be associated with a valid user 
+c. Technologies Used
+•	Frontend: 
+
+•	Backend: 
+•	Database: 
+•	Version Control: GitHub 
+d. User Interface Design
+The application includes:
+•	Login/Register Page: Simple form for authentication 
+•	Home Page: Displays available food listings 
+•	Post Listing Page: Allows providers to add food 
+•	Notification Panel: Shows real-time updates 
+The design focuses on simplicity, clear navigation, and responsiveness across devices.
+e. Security Measures
+•	User authentication with secure login system 
+•	Role-based access control (admin vs user) 
+•	Input validation to prevent invalid or harmful data 
+•	Secure communication between frontend and backend
 
